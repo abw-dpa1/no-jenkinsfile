@@ -16,6 +16,10 @@ pipeline {
           "Test using firefox": {
             echo 'testing using firefox'
             
+          },
+          "test using Edge": {
+            echo 'testing using Edge'
+            
           }
         )
       }
