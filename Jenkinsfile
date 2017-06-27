@@ -16,6 +16,10 @@ pipeline {
           "test with Firefox": {
             echo 'firefox'
             
+          },
+          "edge": {
+            echo 'edge'
+            
           }
         )
       }
