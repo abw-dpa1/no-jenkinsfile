@@ -8,7 +8,7 @@ pipeline {
     }
     stage('stage2') {
       steps {
-        node(label: 'test-node') {
+        node(label: 'swarm') {
           echo 'hello2-in-a-different-node'
         }
         
